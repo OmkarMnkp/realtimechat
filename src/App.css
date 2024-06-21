@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9ebee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background: #f0f2f5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.app-header {
+  text-align: center;
+  background: linear-gradient(45deg, #3b5998, #6a89cc);
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-container {
+  margin-top: 50px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room label {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #3b5998;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  transition: border-color 0.3s;
+}
+
+.room input:focus {
+  border-color: #6a89cc;
+}
+
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: #3b5998;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.room button:hover {
+  background-color: #6a89cc;
+}
+
+.room button:active {
+  transform: scale(0.98);
+}
+
+.sign-out {
+  margin-top: 50px;
+  text-align: center;
+}
