@@ -1,3 +1,8 @@
+# Real-time Chat App
+
+A real-time chat application built using React and Firebase. This project demonstrates how to use Firebase for authentication, real-time database, and hosting with a React frontend.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
